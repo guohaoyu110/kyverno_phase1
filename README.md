@@ -48,9 +48,13 @@ keywords: a list of keywords that describe the policy.
 #### Step 3: Create pull requests
 
 3.1. Create a new branch for each policy metadata file: git checkout -b add-metadata/<policy-name>
+
 3.2. Add the metadata file to the artifact-hub directory: git add artifact-hub/<policy-name>/metadata.yaml
+
 3.3. Commit the changes: git commit -m "Add metadata for <policy-name>"
+
 3.4. Push the changes to the remote repository: git push origin add-metadata/<policy-name>
+
 3.5. Create a pull request on the Kyverno/policies repository to add the metadata file and submit the policy to the Artifact Hub.
 
 
