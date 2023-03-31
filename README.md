@@ -28,6 +28,7 @@ Create a list of policies that need to be listed on the Artifact Hub. This could
 #### Step 2: Generate metadata files
 
 2.1. For each policy, create a metadata file in the artifact-hub directory of the repository using the metadata.yaml format.
+
 2.2. The metadata file should include the following information:
 name: the name of the policy.
 version: the version of the policy.
@@ -36,7 +37,9 @@ maintainers: a list of maintainers who are responsible for the policy.
 license: the license under which the policy is released.
 source: a URL to the source code of the policy.
 keywords: a list of keywords that describe the policy.
+
 2.3. If a policy already has a metadata file, update it with any new or changed information.
+
 2.4. Use a script to automate the metadata file creation process as much as possible. For example, the script could parse the policy files and extract the relevant information to populate the metadata file.
 
 
